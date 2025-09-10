@@ -1,4 +1,4 @@
-# segtree
+# Segtree
 
 [![License BSD-3](https://img.shields.io/pypi/l/segtree.svg?color=green)](https://github.com/hereariim/segtree/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/segtree.svg?color=green)](https://pypi.org/project/segtree)
@@ -9,11 +9,20 @@
 [![npe2](https://img.shields.io/badge/plugin-npe2-blue?link=https://napari.org/stable/plugins/index.html)](https://napari.org/stable/plugins/index.html)
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json)](https://github.com/copier-org/copier)
 
-Individual tree segmentation
+SegTree is a plugin designed for the segmentation of individual trees from imagery. It isolates tree in ovelapping tree context.
 
-----------------------------------
+**Input:** RGB images or preprocessed point clouds.
 
-This [napari] plugin was generated with [copier] using the [napari-plugin-template].
+**Output:** binary masks or polygons corresponding to each detected tree, which can be used to derive morphological traits such as tree height, crown shape, or canopy density.
+
+![alt text](<Screenshot from 2025-09-10 17-01-24.png>)
+
+# 🌳 How it works
+
+The user provides as input a **color image** and, optionally, a **trunk detector mask**.
+With a single click, the plugin automatically places prompt points on the detected trunk labels. These prompts are then used by SAM2 HQ (Segment Anything Model v2, High Quality mode) to segment the tree foliage associated with each trunk.
+
+![alt text](<Screenshot from 2025-09-10 15-30-09.png>)
 
 <!--
 Don't miss the full getting started guide to set up your new package:
