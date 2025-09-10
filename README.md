@@ -32,6 +32,27 @@ and review the napari docs for plugin developers:
 https://napari.org/stable/plugins/index.html
 -->
 
+## Article : Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering
+
+METUAREA, Herearii, LAURENS, François, GUERRA, Walter, et al. [Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering](https://www.mdpi.com/1424-8220/25/15/4721). Sensors, 2025, vol. 25, no 15, p. 4721.
+
+## Citing SegTree
+
+If you find SegTree useful in your research, please star ⭐ this repository and consider citing 📝:
+
+```
+@article{metuarea2025individual,
+  title={Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering},
+  author={Metuarea, Herearii and Laurens, Fran{\c{c}}ois and Guerra, Walter and Lozano, Lidia and Patocchi, Andrea and Van Hoye, Shauny and Dutagaci, Helin and Labrosse, Jeremy and Rasti, Pejman and Rousseau, David},
+  journal={Sensors},
+  volume={25},
+  number={15},
+  pages={4721},
+  year={2025},
+  publisher={MDPI}
+}
+```
+
 ## Installation
 
 You can install `segtree` via [pip]:
@@ -43,6 +64,16 @@ You can install `segtree` via [pip]:
 To install latest development version :
 
     pip install git+https://github.com/hereariim/segtree.git
+
+
+## Contact
+
+Imhorphen team, bioimaging research group
+
+42 rue George Morel, Angers, France
+
+- Pr David Rousseau, david.rousseau@univ-angers.fr
+- Herearii Metuarea, herearii.metuarea@univ-angers.fr
 
 
 ## Contributing
