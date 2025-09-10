@@ -13,7 +13,7 @@ SegTree is a plugin designed for the segmentation of individual trees from image
 
 **Input:** RGB images or preprocessed point clouds.
 
-**Output:** binary masks or polygons corresponding to each detected tree, which can be used to derive morphological traits such as tree height, crown shape, or canopy density.
+**Output:** Binary masks of segmentated tree.
 
 ![alt text](<Screenshot from 2025-09-10 17-01-24.png>)
 

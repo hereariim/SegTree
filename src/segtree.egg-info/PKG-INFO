@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: segtree
-Version: 0.1.dev11+gd5ce54b
+Version: 0.0.2.dev5+nogit.g3e1a9e72f.d20250910
 Summary: Individual tree segmentation
 Author: Herearii Metuarea
 Author-email: herearii.metuarea@univ-angers.fr
@@ -122,7 +122,6 @@ Requires-Dist: pyparsing==3.2.3
 Requires-Dist: pyreadline3==3.5.4
 Requires-Dist: python-multipart==0.0.20
 Requires-Dist: pytz==2025.2
-Requires-Dist: pywin32==310
 Requires-Dist: pyyaml==6.0.2
 Requires-Dist: referencing==0.36.2
 Requires-Dist: regex==2024.11.6
@@ -164,7 +163,7 @@ Requires-Dist: napari; extra == "testing"
 Requires-Dist: pyqt5; extra == "testing"
 Dynamic: license-file
 
-# segtree
+# 🌳 Segtree
 
 [![License BSD-3](https://img.shields.io/pypi/l/segtree.svg?color=green)](https://github.com/hereariim/segtree/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/segtree.svg?color=green)](https://pypi.org/project/segtree)
@@ -175,11 +174,20 @@ Dynamic: license-file
 [![npe2](https://img.shields.io/badge/plugin-npe2-blue?link=https://napari.org/stable/plugins/index.html)](https://napari.org/stable/plugins/index.html)
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json)](https://github.com/copier-org/copier)
 
-Individual tree segmentation
+SegTree is a plugin designed for the segmentation of individual trees from imagery. It isolates tree in ovelapping tree context.
 
-----------------------------------
+**Input:** RGB images or preprocessed point clouds.
 
-This [napari] plugin was generated with [copier] using the [napari-plugin-template].
+**Output:** binary masks or polygons corresponding to each detected tree, which can be used to derive morphological traits such as tree height, crown shape, or canopy density.
+
+![alt text](<Screenshot from 2025-09-10 17-01-24.png>)
+
+## How it works
+
+The user provides as input a **color image** and, optionally, a **trunk detector mask**.
+With a single click, the plugin automatically places prompt points on the detected trunk labels. These prompts are then used by [SAM2 HQ](https://github.com/SysCV/sam-hq/blob/main/sam-hq2/README.md#citing-hq-sam-2) (Segment Anything Model v2, High Quality mode) to segment the tree foliage associated with each trunk.
+
+![alt text](<Screenshot from 2025-09-10 15-30-09.png>)
 
 <!--
 Don't miss the full getting started guide to set up your new package:
@@ -188,6 +196,27 @@ https://github.com/napari/napari-plugin-template#getting-started
 and review the napari docs for plugin developers:
 https://napari.org/stable/plugins/index.html
 -->
+
+## Article : Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering
+
+METUAREA, Herearii, LAURENS, François, GUERRA, Walter, et al. [Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering](https://www.mdpi.com/1424-8220/25/15/4721). Sensors, 2025, vol. 25, no 15, p. 4721.
+
+## Citing SegTree
+
+If you find SegTree useful in your research, please star ⭐ this repository and consider citing 📝:
+
+```
+@article{metuarea2025individual,
+  title={Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering},
+  author={Metuarea, Herearii and Laurens, Fran{\c{c}}ois and Guerra, Walter and Lozano, Lidia and Patocchi, Andrea and Van Hoye, Shauny and Dutagaci, Helin and Labrosse, Jeremy and Rasti, Pejman and Rousseau, David},
+  journal={Sensors},
+  volume={25},
+  number={15},
+  pages={4721},
+  year={2025},
+  publisher={MDPI}
+}
+```
 
 ## Installation
 
@@ -200,6 +229,16 @@ You can install `segtree` via [pip]:
 To install latest development version :
 
     pip install git+https://github.com/hereariim/segtree.git
+
+
+## Contact
+
+Imhorphen team, bioimaging research group
+
+42 rue George Morel, Angers, France
+
+- Pr David Rousseau, david.rousseau@univ-angers.fr
+- Herearii Metuarea, herearii.metuarea@univ-angers.fr
 
 
 ## Contributing
