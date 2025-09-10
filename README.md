@@ -20,7 +20,7 @@ SegTree is a plugin designed for the segmentation of individual trees from image
 ## How it works
 
 The user provides as input a **color image** and, optionally, a **trunk detector mask**.
-With a single click, the plugin automatically places prompt points on the detected trunk labels. These prompts are then used by SAM2 HQ (Segment Anything Model v2, High Quality mode) to segment the tree foliage associated with each trunk.
+With a single click, the plugin automatically places prompt points on the detected trunk labels. These prompts are then used by [SAM2 HQ](https://github.com/SysCV/sam-hq/blob/main/sam-hq2/README.md#citing-hq-sam-2) (Segment Anything Model v2, High Quality mode) to segment the tree foliage associated with each trunk.
 
 ![alt text](<Screenshot from 2025-09-10 15-30-09.png>)
 
