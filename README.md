@@ -1,11 +1,11 @@
-# 🌳 napari-segtree
+# 🌳 Segtree
 
-[![License BSD-3](https://img.shields.io/pypi/l/napari-segtree.svg?color=green)](https://github.com/hereariim/napari-segtree/raw/main/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/napari-segtree.svg?color=green)](https://pypi.org/project/napari-segtree)
-[![Python Version](https://img.shields.io/pypi/pyversions/napari-segtree.svg?color=green)](https://python.org)
-[![tests](https://github.com/hereariim/napari-segtree/workflows/tests/badge.svg)](https://github.com/hereariim/napari-segtree/actions)
-[![codecov](https://codecov.io/gh/hereariim/napari-segtree/branch/main/graph/badge.svg)](https://codecov.io/gh/hereariim/napari-segtree)
-[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-segtree)](https://napari-hub.org/plugins/napari-segtree)
+[![License BSD-3](https://img.shields.io/pypi/l/segtree.svg?color=green)](https://github.com/hereariim/segtree/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/segtree.svg?color=green)](https://pypi.org/project/segtree)
+[![Python Version](https://img.shields.io/pypi/pyversions/segtree.svg?color=green)](https://python.org)
+[![tests](https://github.com/hereariim/segtree/workflows/tests/badge.svg)](https://github.com/hereariim/segtree/actions)
+[![codecov](https://codecov.io/gh/hereariim/segtree/branch/main/graph/badge.svg)](https://codecov.io/gh/hereariim/segtree)
+[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/segtree)](https://napari-hub.org/plugins/segtree)
 [![npe2](https://img.shields.io/badge/plugin-npe2-blue?link=https://napari.org/stable/plugins/index.html)](https://napari.org/stable/plugins/index.html)
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json)](https://github.com/copier-org/copier)
 
@@ -36,9 +36,9 @@ https://napari.org/stable/plugins/index.html
 
 METUAREA, Herearii, LAURENS, François, GUERRA, Walter, et al. [Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering](https://www.mdpi.com/1424-8220/25/15/4721). Sensors, 2025, vol. 25, no 15, p. 4721.
 
-## Citing napari-segtree
+## Citing segtree
 
-If you find napari-segtree useful in your research, please star ⭐ this repository and consider citing 📝:
+If you find segtree useful in your research, please star ⭐ this repository and consider citing 📝:
 
 ```
 @article{metuarea2025individual,
@@ -55,15 +55,15 @@ If you find napari-segtree useful in your research, please star ⭐ this reposit
 
 ## Installation
 
-You can install `napari-segtree` via [pip]:
+You can install `segtree` via [pip]:
 
-    pip install napari-segtree
+    pip install segtree
 
 
 
 To install latest development version :
 
-    pip install git+https://github.com/hereariim/napari-segtree.git
+    pip install git+https://github.com/hereariim/segtree.git
 
 
 ## Contact
@@ -84,7 +84,7 @@ the coverage at least stays the same before you submit a pull request.
 ## License
 
 Distributed under the terms of the [BSD-3] license,
-"napari-segtree" is free and open source software
+"segtree" is free and open source software
 
 ## Issues
 
@@ -101,7 +101,7 @@ If you encounter any problems, please [file an issue] along with a detailed desc
 [Mozilla Public License 2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
 [napari-plugin-template]: https://github.com/napari/napari-plugin-template
 
-[file an issue]: https://github.com/hereariim/napari-segtree/issues
+[file an issue]: https://github.com/hereariim/segtree/issues
 
 [napari]: https://github.com/napari/napari
 [tox]: https://tox.readthedocs.io/en/latest/

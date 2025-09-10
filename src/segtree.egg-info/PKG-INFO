@@ -173,7 +173,7 @@ Dynamic: license-file
 [![npe2](https://img.shields.io/badge/plugin-npe2-blue?link=https://napari.org/stable/plugins/index.html)](https://napari.org/stable/plugins/index.html)
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json)](https://github.com/copier-org/copier)
 
-SegTree is a plugin designed for the segmentation of individual trees from imagery. It isolates tree in ovelapping tree context.
+Segtree is a plugin designed for the segmentation of individual trees from imagery. It isolates tree in ovelapping tree context.
 
 **Input:** RGB images or preprocessed point clouds.
 
@@ -200,9 +200,9 @@ https://napari.org/stable/plugins/index.html
 
 METUAREA, Herearii, LAURENS, François, GUERRA, Walter, et al. [Individual Segmentation of Intertwined Apple Trees in a Row via Prompt Engineering](https://www.mdpi.com/1424-8220/25/15/4721). Sensors, 2025, vol. 25, no 15, p. 4721.
 
-## Citing SegTree
+## Citing segtree
 
-If you find SegTree useful in your research, please star ⭐ this repository and consider citing 📝:
+If you find segtree useful in your research, please star ⭐ this repository and consider citing 📝:
 
 ```
 @article{metuarea2025individual,
