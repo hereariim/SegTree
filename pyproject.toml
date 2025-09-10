@@ -27,7 +27,6 @@ requires-python = ">=3.10.16"
 dependencies = [
     "torch>=2.3.1",
     "torchvision>=0.18.1",
-    "hq-sam-2[notebooks] @ git+https://github.com/SysCV/sam-hq.git@main#subdirectory=sam-hq2",
     "numpy",
     "magicgui",
     "qtpy",
@@ -161,6 +160,8 @@ where = ["src"]
 "*" = ["*.yaml"]
 
 [tool.setuptools_scm]
+version_scheme = "release-branch-semver"
+local_scheme = "no-local-version"
 write_to = "src/segtree/_version.py"
 fallback_version = "0.0.1+nogit"
 
