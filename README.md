@@ -1,4 +1,4 @@
-# Segtree
+# 🌳 Segtree
 
 [![License BSD-3](https://img.shields.io/pypi/l/segtree.svg?color=green)](https://github.com/hereariim/segtree/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/segtree.svg?color=green)](https://pypi.org/project/segtree)
@@ -17,7 +17,7 @@ SegTree is a plugin designed for the segmentation of individual trees from image
 
 ![alt text](<Screenshot from 2025-09-10 17-01-24.png>)
 
-# 🌳 How it works
+## How it works
 
 The user provides as input a **color image** and, optionally, a **trunk detector mask**.
 With a single click, the plugin automatically places prompt points on the detected trunk labels. These prompts are then used by SAM2 HQ (Segment Anything Model v2, High Quality mode) to segment the tree foliage associated with each trunk.
