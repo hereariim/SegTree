@@ -1,7 +1,7 @@
 # 🌳 Segtree
 
 [![License BSD-3](https://img.shields.io/pypi/l/segtree.svg?color=green)](https://github.com/hereariim/segtree/raw/main/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/segtree.svg?color=green)](https://pypi.org/project/segtree)
+[![PyPI](https://img.shields.io/pypi/v/segtree.svg?color=green)](https://pypi.org/project/orchardseg)
 [![Python Version](https://img.shields.io/pypi/pyversions/segtree.svg?color=green)](https://python.org)
 [![tests](https://github.com/hereariim/segtree/workflows/tests/badge.svg)](https://github.com/hereariim/segtree/actions)
 [![codecov](https://codecov.io/gh/hereariim/segtree/branch/main/graph/badge.svg)](https://codecov.io/gh/hereariim/segtree)
