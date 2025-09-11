@@ -1,5 +1,5 @@
 [project]
-name = "orchardseg"
+name = "segtree"
 dynamic = ["version"]
 description = "Individual tree segmentation"
 readme = "README.md"
